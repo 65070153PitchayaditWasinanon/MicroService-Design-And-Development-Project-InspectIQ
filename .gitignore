@@ -8,7 +8,10 @@ dist
 
 # Node dependencies
 node_modules
+
+# Ignore Folder
 myvenv
+Document
 
 # Logs
 logs
