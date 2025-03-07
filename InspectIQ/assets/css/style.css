@@ -1,3 +1,30 @@
-h1 {
-    color: orange;
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #f3f3f3;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
 }
+
+.navbar {
+    background-color: black !important;
+}
+
+.btn {
+    border-radius: 0 !important; /* ยกเลิกการทำขอบมน */
+    background-color: #FFB700 !important;
+    border: none !important; /* ยกเลิกการใช้ขอบสีฟ้า */
+    color: #fff !important; /* เปลี่ยนสีตัวอักษรเป็นสีขาว */
+  }
+
+.logotext {
+    color: #FFB700 !important;
+}
+
+.container-fluid {
+    padding-left: 200px !important; /* เพิ่มพื้นที่ทางซ้าย */
+    padding-right: 200px !important; /* เพิ่มพื้นที่ทางขวา */
+  }
+
