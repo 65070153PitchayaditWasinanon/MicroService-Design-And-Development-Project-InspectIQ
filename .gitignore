@@ -9,9 +9,12 @@ dist
 # Node dependencies
 node_modules/
 
-# Ignore Folder
-myvenv/
+# Ignore the 'Document' folder
 Document/
+
+# Ignore the 'myvenv' virtual environment folder
+myvenv/
+
 
 # Logs
 logs
