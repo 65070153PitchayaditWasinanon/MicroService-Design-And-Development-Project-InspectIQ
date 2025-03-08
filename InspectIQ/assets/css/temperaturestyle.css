@@ -155,6 +155,61 @@
     transform: scale(1.05); /* ขยายขึ้นเล็กน้อย */
   }
 
+/* อุณหภูมิ card */
+.temperature-card {
+    border-radius: 20px;
+}
+  .temperature-png {
+    width: 150px; /* ปรับขนาดรูปให้เล็กลง */
+    height: auto; /* คงอัตราส่วนของรูป */
+    padding: 2rem;
+
+  }
+  .temperature-text-red {
+    color: #FF3131;
+    font-size: 50px;
+  }
+
+  .temperature-text-green {
+    color: #00BF63;
+    font-size: 50px;
+  }
+
+  .temperature-text-blue {
+    color: #0097B2;
+    font-size: 50px;
+  }
+
+  .topic-text {
+    font-size: 25px;
+  }
   
+.info-temperature {
+  padding: 5rem;
+}
+
+.info-temperature2{
+  margin: 5rem;
+}
+
+.card-temperature {
+
+    min-width: 400px;  /* กำหนดขนาดขั้นต่ำ */
+    min-height: 500px;
+    border-radius: 20px;
+    padding: 20px 20px;
   
-  
+}
+
+.timestamp-card{
+  padding-left: 1.5rem;
+}
+
+.readtime{
+  padding-top: 1rem;
+}
+
+.timestamp-topic {
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+}

@@ -30,35 +30,145 @@
       </div>
     </nav>
 
-    <!-- บทนำ -->
     <div class="content_all">
+
+      <!-- บทนำ -->
       <div class="preface">
-          <section class="slider_section ">
+
+        <section class="slider_section ">
+
           <div class="container ">
+
             <div class="row">
-              <div class="col-md-6 ">
-                <div class="detail-box">
-                  <h1>
-                    Inspect IQ<br>
-                    Measure temperature <br>
-                    Measure humidity and Light measurement
-                  </h1>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum voluptatem adipisci. Quos molestiae saepe dicta nobis pariatur, tempora iusto, ad possimus soluta hic praesentium mollitia consequatur beatae, aspernatur culpa.
-                  </p>
-                  <a href="" class="contact-btn">
-                    Contact Us
-                  </a>
+
+                <!-- temperature-card -->
+                <div class="col-md-6 ">
+
+                  <div class="col-md-12">
+
+                      <div class="temperature-card card mb-3" style="max-width: 540px;">
+                          <div class="row g-0 d-flex align-items-center">
+                              <div class="col-md-4">
+                                  <img src="/images/temperature-red.png" class="temperature-png rounded-start" alt="temperature-red">
+                              </div>
+                              <div class="col-md-8">
+                                  <div class="card-body d-flex align-items-center justify-content-between">
+                                      <div >
+                                          <h5 class="topic-text card-title ">Channel 1</h5>
+                                          <p class="card-text"><small class="text-body-secondary">อุณหภูมิห้ามเกิน 20°C</small></p>
+                                      </div>
+                                      <h1 class="temperature-text-red card-title me-4">21 °C</h1>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="temperature-card card mb-3" style="max-width: 540px;">
+                          <div class="row g-0 d-flex align-items-center">
+
+                              <div class="col-md-4">
+                                  <img src="/images/temperature-green.png" class="temperature-png rounded-start" alt="temperature-green">
+                              </div>
+
+                              <div class="col-md-8">
+                                  <div class="card-body d-flex align-items-center justify-content-between">
+                                      <div >
+                                          <h5 class="topic-text card-title ">Channel 2</h5>
+                                          <p class="card-text"><small class="text-body-secondary">อุณหภูมิห้ามเกิน 20°C</small></p>
+                                      </div>
+                                      <h1 class="temperature-text-green card-title me-4">20 °C</h1>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="temperature-card card mb-3" style="max-width: 540px;">
+                          <div class="row g-0 d-flex align-items-center">
+                              <div class="col-md-4">
+                                  <img src="/images/temperature-blue.png" class="temperature-png rounded-start" alt="temperature-blue">
+                              </div>
+
+                              <div class="col-md-8">
+                                  <div class="card-body d-flex align-items-center justify-content-between">
+                                      <div >
+                                          <h5 class="topic-text card-title ">Channel 3</h5>
+                                          <p class="card-text"><small class="text-body-secondary">อุณหภูมิห้ามเกิน 20°C</small></p>
+                                      </div>
+                                      <h1 class="temperature-text-blue card-title me-4">19 °C</h1>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="img-box">
-                  <img src="https://miro.medium.com/v2/resize:fit:1400/1*GI-td9gs8D5OKZd19mAOqA.png" alt="">
+
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*GI-td9gs8D5OKZd19mAOqA.png" alt="">
+                  </div>
                 </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- ข้อมูลอุณหภูมิ -->
+        <div class="info-temperature d-flex justify-content-center">
+
+          <div class="d-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; ">
+
+            <div class="card-temperature card">
+              <div class="card-body">
+                <h5 class="card-title">Channel 1 : Overview  Data</h5>
+                
+                <h6 class="readtime card-subtitle mb-2 text-muted">Realtime - last 10 minute</h6>
+                <p class="timestamp-topic card-text">Timestamp</p>
+
+                <div class="timestamp-card row">
+                  <div class=" col-8"><p>2024-03-01 21:20:50</p></div>
+                  <div class="col"><p>20.55 °C</p></div>
+                </div>
+
               </div>
             </div>
+
+            <div class="card-temperature card">
+              <div class="card-body">
+                <h5 class="card-title">Channel 2 : Overview  Data</h5>
+                
+                <h6 class="readtime card-subtitle mb-2 text-muted">Realtime - last 10 minute</h6>
+                <p class="timestamp-topic card-text">Timestamp</p>
+
+                <div class="timestamp-card row">
+                  <div class=" col-8"><p>2024-03-01 21:20:50</p></div>
+                  <div class="col"><p>20.55 °C</p></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-temperature card">
+              <div class="card-body">
+                <h5 class="card-title">Channel 3 : Overview  Data</h5>
+                
+                <h6 class="readtime card-subtitle mb-2 text-muted">Realtime - last 10 minute</h6>
+                <p class="timestamp-topic card-text">Timestamp</p>
+
+                <div class="timestamp-card row">
+                  <div class=" col-8"><p>2024-03-01 21:20:50</p></div>
+                  <div class="col"><p>20.55 °C</p></div>
+                </div>
+
+              </div>
+            </div>
+
           </div>
-        </section>
+        </div>
+
       </div>
 
       <!-- carditem -->
@@ -115,6 +225,7 @@
     </div>
 
   </div>
+
 </template>
 
 <script setup>
@@ -124,5 +235,5 @@
 <style scoped>
 /* นำเข้า CSS */
 
-@import '@/assets/css/style.css'; /* ใช้ path ที่ถูกต้อง */
+@import '@/assets/css/temperaturestyle.css'; /* ใช้ path ที่ถูกต้อง */
 </style>
